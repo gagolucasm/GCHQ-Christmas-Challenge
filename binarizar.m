@@ -1,6 +1,4 @@
 function [ resu ] = binarizar( filas,comb )
-%BINARIZAR Summary of this function goes here
-%   Detailed explanation goes here
 
 for i=1:size(comb,1)
     act=comb(i,:);
